@@ -3,16 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* NavBar Styling */
 .nav-bar{
 display: flex;
 background-color: black;
 position: sticky;
 color: white;
-height: 100%;
+/* position: fixed; */
  
 }
-.nav-elements {
-  
+.nav-elements { 
 }
 .home {
     justify-content: flex-start;
@@ -30,20 +31,18 @@ ul {
     height: 100%;
     border: 2px;
     border-color: #f9f9f9;
+    padding: 20px;
   }
   .nav-bar a{
       text-decoration: none;
       color: white;
     }
-  .nav-item{
-
-    padding: 20px;
-  }
-
   .nav-item a:hover{
     background-color: rgb(168, 152, 152);
    
   }
+
+  /* dropdown within nav bar styling TODO: fix */
   .drp-btn{
     border: none;
   outline: none;
@@ -68,3 +67,4 @@ ul {
   .linkdrop a{
     display: block;
   }
+  
