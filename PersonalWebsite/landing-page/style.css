@@ -1,21 +1,19 @@
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 .nav-bar{
 display: flex;
 background-color: black;
 position: sticky;
 color: white;
+height: 100%;
  
 }
 .nav-elements {
   
 }
-.nav-bar a{
-    text-decoration: none;
-    color: white;
-  }
 .home {
     justify-content: flex-start;
     padding:10px;
@@ -28,6 +26,15 @@ ul {
     width: 100%;
     height: 100%;
   }
+  .nav-item{
+    height: 100%;
+    border: 2px;
+    border-color: #f9f9f9;
+  }
+  .nav-bar a{
+      text-decoration: none;
+      color: white;
+    }
   .nav-item{
 
     padding: 20px;
